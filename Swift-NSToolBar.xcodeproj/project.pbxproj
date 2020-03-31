@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14768546243350D400C2C78A /* NSResponder+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14768545243350D400C2C78A /* NSResponder+Helper.swift */; };
+		14C0095A2433100500F490D6 /* NSSegmentedControl+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C009592433100500F490D6 /* NSSegmentedControl+Helper.swift */; };
+		14C0095C2433101B00F490D6 /* NSButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0095B2433101B00F490D6 /* NSButton+Helper.swift */; };
+		14C0096624332F6C00F490D6 /* NNUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0096524332F6C00F490D6 /* NNUserInfoView.swift */; };
+		6806A0021AF3FC57000351AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806A0011AF3FC57000351AD /* AppDelegate.swift */; };
+		6806A0041AF3FC57000351AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6806A0031AF3FC57000351AD /* Images.xcassets */; };
+		6806A0071AF3FC57000351AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6806A0051AF3FC57000351AD /* MainMenu.xib */; };
+		6806A0131AF3FC57000351AD /* Swift_NSToolBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806A0121AF3FC57000351AD /* Swift_NSToolBarTests.swift */; };
+		6806A0541AF5CD04000351AD /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806A0521AF5CD04000351AD /* DepartmentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6806A00D1AF3FC57000351AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68069FF41AF3FC57000351AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68069FFB1AF3FC57000351AD;
+			remoteInfo = "Swift-NSToolBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14768545243350D400C2C78A /* NSResponder+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSResponder+Helper.swift"; sourceTree = "<group>"; };
+		14C009592433100500F490D6 /* NSSegmentedControl+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSSegmentedControl+Helper.swift"; sourceTree = "<group>"; };
+		14C0095B2433101B00F490D6 /* NSButton+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSButton+Helper.swift"; sourceTree = "<group>"; };
+		14C0096524332F6C00F490D6 /* NNUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNUserInfoView.swift; sourceTree = "<group>"; };
+		68069FFC1AF3FC57000351AD /* Swift-NSToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-NSToolBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6806A0001AF3FC57000351AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6806A0011AF3FC57000351AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6806A0031AF3FC57000351AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6806A0061AF3FC57000351AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6806A00C1AF3FC57000351AD /* Swift-NSToolBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-NSToolBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6806A0111AF3FC57000351AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6806A0121AF3FC57000351AD /* Swift_NSToolBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_NSToolBarTests.swift; sourceTree = "<group>"; };
+		6806A0521AF5CD04000351AD /* DepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68069FF91AF3FC57000351AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6806A0091AF3FC57000351AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68069FF31AF3FC57000351AD = {
+			isa = PBXGroup;
+			children = (
+				68069FFE1AF3FC57000351AD /* Swift-NSToolBar */,
+				6806A00F1AF3FC57000351AD /* Swift-NSToolBarTests */,
+				68069FFD1AF3FC57000351AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68069FFD1AF3FC57000351AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68069FFC1AF3FC57000351AD /* Swift-NSToolBar.app */,
+				6806A00C1AF3FC57000351AD /* Swift-NSToolBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68069FFE1AF3FC57000351AD /* Swift-NSToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				6806A0011AF3FC57000351AD /* AppDelegate.swift */,
+				6806A0521AF5CD04000351AD /* DepartmentViewController.swift */,
+				14C0096524332F6C00F490D6 /* NNUserInfoView.swift */,
+				14C009592433100500F490D6 /* NSSegmentedControl+Helper.swift */,
+				14C0095B2433101B00F490D6 /* NSButton+Helper.swift */,
+				14768545243350D400C2C78A /* NSResponder+Helper.swift */,
+				6806A0031AF3FC57000351AD /* Images.xcassets */,
+				6806A0051AF3FC57000351AD /* MainMenu.xib */,
+				68069FFF1AF3FC57000351AD /* Supporting Files */,
+			);
+			path = "Swift-NSToolBar";
+			sourceTree = "<group>";
+		};
+		68069FFF1AF3FC57000351AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6806A0001AF3FC57000351AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6806A00F1AF3FC57000351AD /* Swift-NSToolBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6806A0121AF3FC57000351AD /* Swift_NSToolBarTests.swift */,
+				6806A0101AF3FC57000351AD /* Supporting Files */,
+			);
+			path = "Swift-NSToolBarTests";
+			sourceTree = "<group>";
+		};
+		6806A0101AF3FC57000351AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6806A0111AF3FC57000351AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68069FFB1AF3FC57000351AD /* Swift-NSToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6806A0161AF3FC57000351AD /* Build configuration list for PBXNativeTarget "Swift-NSToolBar" */;
+			buildPhases = (
+				68069FF81AF3FC57000351AD /* Sources */,
+				68069FF91AF3FC57000351AD /* Frameworks */,
+				68069FFA1AF3FC57000351AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-NSToolBar";
+			productName = "Swift-NSToolBar";
+			productReference = 68069FFC1AF3FC57000351AD /* Swift-NSToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6806A00B1AF3FC57000351AD /* Swift-NSToolBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6806A0191AF3FC57000351AD /* Build configuration list for PBXNativeTarget "Swift-NSToolBarTests" */;
+			buildPhases = (
+				6806A0081AF3FC57000351AD /* Sources */,
+				6806A0091AF3FC57000351AD /* Frameworks */,
+				6806A00A1AF3FC57000351AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6806A00E1AF3FC57000351AD /* PBXTargetDependency */,
+			);
+			name = "Swift-NSToolBarTests";
+			productName = "Swift-NSToolBarTests";
+			productReference = 6806A00C1AF3FC57000351AD /* Swift-NSToolBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68069FF41AF3FC57000351AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Knowstack;
+				TargetAttributes = {
+					68069FFB1AF3FC57000351AD = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2JZLEXVN7E;
+					};
+					6806A00B1AF3FC57000351AD = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 68069FFB1AF3FC57000351AD;
+					};
+				};
+			};
+			buildConfigurationList = 68069FF71AF3FC57000351AD /* Build configuration list for PBXProject "Swift-NSToolBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 68069FF31AF3FC57000351AD;
+			productRefGroup = 68069FFD1AF3FC57000351AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68069FFB1AF3FC57000351AD /* Swift-NSToolBar */,
+				6806A00B1AF3FC57000351AD /* Swift-NSToolBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68069FFA1AF3FC57000351AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6806A0041AF3FC57000351AD /* Images.xcassets in Resources */,
+				6806A0071AF3FC57000351AD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6806A00A1AF3FC57000351AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68069FF81AF3FC57000351AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14768546243350D400C2C78A /* NSResponder+Helper.swift in Sources */,
+				14C0095C2433101B00F490D6 /* NSButton+Helper.swift in Sources */,
+				14C0095A2433100500F490D6 /* NSSegmentedControl+Helper.swift in Sources */,
+				6806A0541AF5CD04000351AD /* DepartmentViewController.swift in Sources */,
+				6806A0021AF3FC57000351AD /* AppDelegate.swift in Sources */,
+				14C0096624332F6C00F490D6 /* NNUserInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6806A0081AF3FC57000351AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6806A0131AF3FC57000351AD /* Swift_NSToolBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6806A00E1AF3FC57000351AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68069FFB1AF3FC57000351AD /* Swift-NSToolBar */;
+			targetProxy = 6806A00D1AF3FC57000351AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6806A0051AF3FC57000351AD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6806A0061AF3FC57000351AD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6806A0141AF3FC57000351AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6806A0151AF3FC57000351AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6806A0171AF3FC57000351AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JZLEXVN7E;
+				INFOPLIST_FILE = "Swift-NSToolBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6806A0181AF3FC57000351AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JZLEXVN7E;
+				INFOPLIST_FILE = "Swift-NSToolBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6806A01A1AF3FC57000351AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-NSToolBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-NSToolBar.app/Contents/MacOS/Swift-NSToolBar";
+			};
+			name = Debug;
+		};
+		6806A01B1AF3FC57000351AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-NSToolBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-NSToolBar.app/Contents/MacOS/Swift-NSToolBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68069FF71AF3FC57000351AD /* Build configuration list for PBXProject "Swift-NSToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6806A0141AF3FC57000351AD /* Debug */,
+				6806A0151AF3FC57000351AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6806A0161AF3FC57000351AD /* Build configuration list for PBXNativeTarget "Swift-NSToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6806A0171AF3FC57000351AD /* Debug */,
+				6806A0181AF3FC57000351AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6806A0191AF3FC57000351AD /* Build configuration list for PBXNativeTarget "Swift-NSToolBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6806A01A1AF3FC57000351AD /* Debug */,
+				6806A01B1AF3FC57000351AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68069FF41AF3FC57000351AD /* Project object */;
+}
